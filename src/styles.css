@@ -1,1 +1,138 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  font-size: 14px;
+}
+
+body{
+  height: 100vh;
+}
+
+app-root>div {
+  height: 100%;
+}
+
+app-root hr {
+  margin: 0;
+  border-top: 0.1429rem solid rgba(232, 235, 242, 0.19);
+  width: calc(100% + 2rem);
+}
+
+app-root nav.navbar {
+  width: 14.28rem;
+  min-width: 14.28rem;
+  padding: 0 1rem;
+}
+
+app-root nav a.navbar-brand {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+app-root nav a img {
+  width: 100%;
+  height: 6.4286rem;
+}
+
+app-root ul li a {
+  font-size: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    padding: 1.2857rem 1.0714285rem;
+    margin-top: 0.0714rem;
+}
+
+app-root ul li:hover>a, app-root ul li.active>a {
+  background: #3680EF;
+  color: white;
+  border-left: solid 0.3571rem #82DEA7;
+}
+
+app-root .user-info {
+  justify-content: space-evenly;
+  min-height: 6rem;
+  width: 100%;
+  color: white;
+}
+
+app-root .user-info .username {
+  font-size: 1.2rem;
+}
+
+app-root .user-info .user-type {
+  font-size: 1rem;
+}
+
+#navbarSupportedContent {
+  height: 100%;
+  width: calc(100% + 2rem);
+  background-color: #4690FF;
+}
+
+#navbarSupportedContent>ul {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+
+.bg-dark {
+    background-color: #3680EF!important;
+}
+
+.tabs-section {
+  height: 6.5715rem;
+  min-height: 6.5715rem;
+}
+
+.main-section {
+  height: 100%;
+  background-color: #F2F3F4;
+  padding: 2.1429rem;
+  overflow-y: scroll;
+}
+
+.main-section .container-fluid {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  min-height: 100%;
+  box-shadow: 0px 0.2143rem 0.7143rem rgba(0,0,0,0.16);
+}
+
+.rounded {
+  border-radius: .7143rem!important;
+}
+
+.tabs-section .nav-item {
+  margin: 0.3571rem 0.3571rem 0 0.3571rem;
+}
+
+.tabs-section li a {
+  text-transform: uppercase;
+  color: #A4AAB2;
+  background-color: transparent !important;
+}
+
+.tabs-section li.active a, .tabs-section li:hover a {
+  border: 0px;
+  border-bottom: 0.3571rem solid #62C489;
+  color: #46464C;
+}
+
+app-company,
+app-analytics,
+app-brand,
+app-distribution,
+app-consumers,
+app-tickets,
+app-configuration,
+app-suggestions,
+app-billing {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
